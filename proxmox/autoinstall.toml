@@ -3,7 +3,7 @@ keyboard = "en-us"
 country = "us"
 fqdn = "hostname.zone.example.com"
 mailto = "adminuser@example.com"
-timezone = "Etc/UTC"
+timezone = "UTC"
 root-password = "1-EXAMPLE=secure_password+HOMBRE!!!"
 root-ssh-keys = [ "ssh-ed25519 AAAA..." ]
 reboot-mode = "power-off"
