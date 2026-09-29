@@ -1,0 +1,22 @@
+[global]
+keyboard = "en-us"
+country = "us"
+fqdn = "hostname.zone.example.com"
+mailto = "adminuser@example.com"
+timezone = "Etc/UTC"
+root-password = "1-EXAMPLE=secure_password+HOMBRE!!!"
+root-ssh-keys = [ "ssh-ed25519 AAAA..." ]
+reboot-mode = "power-off"
+
+[disk-setup]
+disk-list = ["wwn-..."]
+filesystem = "btrfs"
+btrfs.raid = "raid0"
+btrfs.compress = "zstd"
+
+[network]
+# source = "from-dhcp"
+source = "from-answer"
+cidr = "192.168.0.100/16"
+dns = "192.168.0.2"
+gateway = "192.168.0.1"
